@@ -34,3 +34,37 @@ body {
     padding: 0 15px;
     margin: 0 auto;
 }
+
+.btn {
+    width: 166px;
+    height: 46px;
+    border-radius: 4px;
+    background: var(--lightor);
+    border: none;
+    outline: none;
+    font-family: var(--RM);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 12px;
+    color: var(--black);
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: var(--bg);
+    color: var(--white);
+}
+
+.title {
+    font-family: var(--CR);
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 40px;
+    color: var(--lightor);
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--lightor);
+    width: max-content;
+    margin: 60px 0 54px;
+    text-transform: capitalize;
+}
+
